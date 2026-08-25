@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tesseras-creare"
+version = "0.1.0"
+description = "A wordlist generator for common patterns."
+requires-python = ">=3"
+license = {text = "MIT"}
+dependencies = [
+]
+
+[project.scripts]
+tesseras-creare = "tesseras_creare.__main__:main"
